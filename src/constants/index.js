@@ -25,7 +25,10 @@ import {
     threejs,
     hotcat,
     ebi,
-    fiverr
+    fiverr,
+    nextjs,
+    reactNative,
+    mui
   } from "../assets";
   
   export const navLinks = [
@@ -104,6 +107,14 @@ import {
       icon: threejs,
     },
     {
+      name: "Next.js",
+      icon: nextjs,
+    },
+    {
+      name: "React Native",
+      icon: reactNative,
+    },
+    {
       name: "git",
       icon: git,
     },
@@ -112,8 +123,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Material UI",
+      icon: mui,
     },
   ];
   
