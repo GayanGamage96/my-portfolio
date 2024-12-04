@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    hotcat,
+    ebi,
+    fiverr
   } from "../assets";
   
   export const navLinks = [
@@ -116,50 +119,28 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Trainee Software Engineer",
+      company_name: "Enterprise Business Intelligence (pvt) ltd",
+      icon: ebi,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2023 - October 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining scalable web applications using React.js, Node.js, and TypeScript.",
+        "Building dynamic and responsive user interfaces with Next.js to enhance user experience.",
+        "Designing and implementing robust backend APIs and services using Node.js and Express.",
+        "Working with MongoDB to design and manage databases for storing and retrieving application data efficiently.",
+        "Collaborating with cross-functional teams to gather requirements and deliver end-to-end solutions.",
+        "Ensuring code quality and maintainability through best practices, code reviews, and TypeScript typing.",
+        "Optimizing application performance and implementing SEO strategies for Next.js applications.",
+        "Debugging and resolving issues across the stack to ensure smooth functionality and user satisfaction.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Intern Software Engineer",
+      company_name: "Hotcat Technologies",
+      icon: hotcat,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - July 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,6 +148,23 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "2D Animator",
+      company_name: "Freelancing",
+      icon: fiverr,
+      iconBg: "#E6DEDD",
+      date: "Jan 2020 - Present",
+      points: [
+        "Creating 2D animations for various projects, including videos, games, and promotional content.",
+        "Collaborating with clients and creative teams to understand project requirements and deliver high-quality animations.",
+        "Designing storyboards, character animations, and motion graphics to bring concepts to life.",
+        "Utilizing industry-standard tools such as Adobe Animate, Toon Boom, or After Effects for animation creation.",
+        "Ensuring animations meet project deadlines while maintaining consistency in style and quality.",
+        "Incorporating client feedback to refine animations and improve the overall visual storytelling.",
+        "Staying updated on the latest animation trends and techniques to enhance creative output.",
+      ],
+    },
+    
   ];
   
   const testimonials = [
