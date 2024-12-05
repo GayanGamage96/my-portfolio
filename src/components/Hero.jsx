@@ -24,8 +24,8 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      {/* <ComputersCanvas /> */}
+      <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-32">
         <a href="#about">
           <div
             className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex
@@ -40,7 +40,7 @@ const Hero = () => {
               repeat:Infinity,
               repeatType:'loop'
             }}
-            className="w-3 h-3 rounded-full bg-secondary mb-1"
+            className="w-3 h-3 mb-1 rounded-full bg-secondary"
             />
           </div>
         </a>

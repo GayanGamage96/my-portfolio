@@ -60,7 +60,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "2D Animator",
       icon: creator,
     },
   ];
@@ -181,27 +181,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Great work as always! I’m always satisfied with the work provided in such a short time frame. Highly recommended.",
+      name: "Kerron Stark",
+      designation: "Buyer",
+      company: "USA",
+      image: fiverr,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Good communication, delivered on time and as per instructions. Very receptive to feedback and revisions!",
+      name: "Humbug",
+      designation: "Buyer",
+      company: "Sweden",
+      image: fiverr
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Madura delivered Amazing results and made perfect and accurate final tweaks according to feedback. Very professional and quick turnaround, absolutely brilliant service!",
+      name: "mdnperera",
+      designation: "Buyer",
+      company: "United Kingdom",
+      image: fiverr
+    },
+    {
+      testimonial:
+        "Always a pleasure and I always get exactly what I ask for!",
+      name: "Kerron Stark",
+      designation: "Buyer",
+      company: "USA",
+      image: fiverr,
     },
   ];
   

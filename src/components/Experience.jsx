@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[80%] h-[80%] object-contain'
+            className='w-[60%] h-[60%] object-contain'
           />
         </div>
       }
@@ -60,10 +60,10 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
+        <p className={`${styles.sectionSubText} text-left`}>
           What I have done so far
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
+        <h2 className={`${styles.sectionHeadText} text-left`}>
           Work Experience.
         </h2>
       </motion.div>
@@ -83,3 +83,4 @@ const Experience = () => {
 };
 
 export default SectionWrapper(Experience, "work");
+//layout="1-column"
