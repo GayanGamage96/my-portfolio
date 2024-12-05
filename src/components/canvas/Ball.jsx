@@ -37,25 +37,6 @@
 //   );
 // };
 
-// const TestFloat = () => {
-//   const meshRef = useRef();
-//   useFrame(() => {
-//     if (meshRef.current) {
-//       // Increment rotation
-//       meshRef.current.rotation.y += 0.02; // Rotate around Y-axis
-//       meshRef.current.rotation.x += 0.01; // Rotate around X-axis
-//     }
-//   });
-//   return (
-//     <Float speed={5} rotationIntensity={10} floatIntensity={3}>
-//       <mesh ref={meshRef} castShadow receiveShadow>
-//         <icosahedronGeometry args={[1, 1]} />
-//         <meshStandardMaterial color="#ff5722" />
-//       </mesh>
-//     </Float>
-//   );
-// };
-
 // const BallCanvas = ({ icon }) => {
 //   return (
 //     <Canvas
@@ -99,7 +80,7 @@ const Ball = (props) => {
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
-          color='#fff8eb'
+          color="#fff8eb"
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading
@@ -119,7 +100,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='always'
+      frameloop="always"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
