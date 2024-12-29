@@ -237,7 +237,7 @@ const projects = [
       },
     ],
     image: pro1,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GayanGamage96/patient-management-system",
   },
   {
     name: "LEARNQUEST",
@@ -270,7 +270,7 @@ const projects = [
       },
     ],
     image: pro2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GayanGamage96/learning-management-system",
   },
 ];
 
