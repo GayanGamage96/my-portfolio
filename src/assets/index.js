@@ -35,6 +35,8 @@ import fiverr from "./company/fiverr.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pro1 from "./pro-img1.png";
+import pro2 from "./pro-img-2.png"
 
 
 export {
@@ -71,5 +73,7 @@ export {
   hotcat,
   ebi,
   fiverr,
-  mui
+  mui,
+  pro1,
+  pro2
 };
